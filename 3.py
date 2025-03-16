@@ -6,7 +6,7 @@ term = math.log(a) * x
 P = 1 + term
 n = 2
 while abs(term) >= e:
-    term = (math.log(a) * n * x * n) / n
+    term = (math.log(a) * x ** n)**n / n
     P += term
     n += 1
 print(P)
